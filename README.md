@@ -1,52 +1,16 @@
-# 🛏🛏 Flutter Furniture App Concept [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+# komikqus
 
-Flutter representation of a Furniture App Concept i found on Uplabs.
+A new Flutter project.
 
-Star⭐ the repo if you like what you see😉.
+## Getting Started
 
-[Link to Original Design on Uplabs](https://www.uplabs.com/posts/e-commerce-app-interface-for-furniture)
+This project is a starting point for a Flutter application.
 
-Images are from [Unsplash](https://unsplash.com)
+A few resources to get you started if this is your first Flutter project:
 
-<a href="ss/app.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
+- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-
-
-## ✨ Requirements
-* Any Operating System (ie. MacOS X, Linux, Windows)
-* Any IDE with Flutter SDK installed (ie. IntelliJ, Android Studio, VSCode etc)
-* A little knowledge of Dart and Flutter
-* A brain to think 🤓🤓
-
-
-## 📸 ScreenShots
-
-<img src="ss/1.png"/>
-
-| Light| Dark|
-|------|-------|
-|<img src="ss/2.png" width="400">|<img src="ss/3.png" width="400">|
-|<img src="ss/5.png" width="400">|<img src="ss/4.png" width="400">|
-
-
-## 🌗 Toggle theme
-To toggle the theme, change the `isDark` variable in `main.dart`.
-
-`true` for dark and `false` for light.
-
-
-## 🤓 Author(s)
-**Olusegun Festus Babajide**
-
-
-## ☕️  Donate
-
-Buy me a cup of Coffee😁
-
-| Mode | Link/Wallet|
-| ------| ------------|
-| Bitcoin | 3GrziPW6Gz6S5mXo2EsiYpafW8vXVq5Rbv|
-
-
-## 🔖 LICENCE
-[WTFPL](http://www.wtfpl.net/about/)
+For help getting started with Flutter, view our
+[online documentation](https://flutter.dev/docs), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
