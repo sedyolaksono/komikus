@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_icons/flutter_icons.dart';
+//import 'package:flutter_swiper/flutter_swiper.dart';
 import 'package:furniture_app/screens/details.dart';
 import 'package:furniture_app/util/data.dart';
 import 'package:furniture_app/widgets/badge.dart';
@@ -15,7 +16,7 @@ class _HomeState extends State<Home> {
 
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) {  
     return Scaffold(
       appBar: AppBar(
         actions: <Widget>[
@@ -31,7 +32,7 @@ class _HomeState extends State<Home> {
       body: ListView(
         padding: EdgeInsets.only(left: 10, right: 10),
         children: <Widget>[
-
+          
           Center(
             child: Padding(
               padding: EdgeInsets.all(5.0),
@@ -207,8 +208,8 @@ class _HomeState extends State<Home> {
               },
             ),
           ),
-
           SizedBox(height: 10),
+
         ],
       ),
     );

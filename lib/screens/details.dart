@@ -79,7 +79,7 @@ class _DetailsState extends State<Details> {
               SizedBox(height: 10),
 
               Text(
-                "American Gods",
+                "${furnitures[0]["name"]}",
                 style: TextStyle(
                   fontSize: 27,
                   fontWeight: FontWeight.w600,
@@ -160,7 +160,6 @@ class _DetailsState extends State<Details> {
                   },
                 ),
               ),
-
               SizedBox(height: 10),
 
             ],

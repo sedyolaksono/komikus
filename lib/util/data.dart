@@ -1,17 +1,21 @@
 List furnitures = [
   {
+    "name": "Si Juki",
     "genre": "Humor",
     "img": "assets/sijuki.jpg",
   },
   {
+    "name": "Jawara",
     "genre": "Fantasy",
     "img": "assets/jawara.jpg",
   },
   {
+    "name": "Pernikahan Tanpa Cinta",
     "genre": "Drama",
     "img": "assets/pernikahantanpacinta.jpg",
   },
   {
+    "name": "Si Buta",
     "genre": "History",
     "img": "assets/sibuta.jpg",
   },
