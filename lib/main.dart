@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:furniture_app/screens/main_screen.dart';
+import 'package:furniture_app/screens/login.dart';
+//import 'package:furniture_app/screens/main_screen.dart';
 import 'package:furniture_app/util/const.dart';
 
 void main() async{
@@ -35,7 +36,7 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       title: Constants.appName,
       theme: isDark ? Constants.darkTheme : Constants.lightTheme,
-      home: MainScreen(),
+      home: LoginScreen(),
     );
   }
 }

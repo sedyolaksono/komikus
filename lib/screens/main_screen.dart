@@ -19,7 +19,8 @@ class _MainScreenState extends State<MainScreen> {
         physics: NeverScrollableScrollPhysics(),
         controller: _pageController,
         onPageChanged: onPageChanged,
-        children: List.generate(4, (index) => Home()),
+        children: List.generate(4, (index) => Home()
+        ),
       ),
 
       bottomNavigationBar: Theme(
