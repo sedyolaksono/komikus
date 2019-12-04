@@ -21,7 +21,7 @@ class _LoginScreenState extends State<LoginScreen> {
         Container(
           alignment: Alignment.centerLeft,
           decoration: BoxDecoration(
-            color: Color(0xFF6CA8F1),
+            color: Color(0xFFE1F5FE),
             borderRadius: BorderRadius.circular(10.0),
             boxShadow: [
               BoxShadow(
@@ -36,7 +36,7 @@ class _LoginScreenState extends State<LoginScreen> {
           child: TextField(
             keyboardType: TextInputType.emailAddress,
             style: TextStyle(
-              color: Colors.white,
+              color: Colors.black,
               fontFamily: 'OpenSans',
             ),
             decoration: InputDecoration(
@@ -44,7 +44,7 @@ class _LoginScreenState extends State<LoginScreen> {
               contentPadding: EdgeInsets.only(top: 14.0),
               prefixIcon: Icon(
                 Icons.email,
-                color: Colors.white,
+                color: Colors.black
               ),
               hintText: 'Enter your Email',
             ),
@@ -66,7 +66,7 @@ class _LoginScreenState extends State<LoginScreen> {
           alignment: Alignment.centerLeft,
           height: 60.0,
           decoration: BoxDecoration(
-            color: Color(0xFF6CA8F1),
+            color: Color(0xFFE1F5FE),
             borderRadius: BorderRadius.circular(10.0),
             boxShadow: [
               BoxShadow(
@@ -79,7 +79,7 @@ class _LoginScreenState extends State<LoginScreen> {
           child: TextField(
             obscureText: true,
             style: TextStyle(
-              color: Colors.white,
+              color: Colors.black,
               fontFamily: 'OpenSans',
             ),
             decoration: InputDecoration(
@@ -87,7 +87,7 @@ class _LoginScreenState extends State<LoginScreen> {
               contentPadding: EdgeInsets.only(top: 14.0),
               prefixIcon: Icon(
                 Icons.lock,
-                color: Colors.white,
+                color: Colors.black
               ),
               hintText: 'Enter your Password',
             ),
